@@ -1,0 +1,35 @@
+.accordion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.item {
+    display: flex;
+    width: 35%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.title {
+    /* border: 1px solid rgb(128, 83, 0); */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #3a743a;
+    font-size: 20px;
+
+}
+.content{
+    
+    font-size: 18px;
+    
+}
