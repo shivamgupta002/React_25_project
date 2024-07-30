@@ -23,7 +23,7 @@ const Accordion = () => {
                   }}
                 >
                   <h3>{dataItem.question}</h3>
-                  <span>+</span>
+                  {selected === dataItem.id ? <span>-</span> : <span>+</span>}
                 </div>
                 {selected === dataItem.id ? (
                   <div className="content">{dataItem.answer}</div>
