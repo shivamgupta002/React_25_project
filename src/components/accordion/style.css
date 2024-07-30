@@ -7,6 +7,18 @@
     width: 100vw;
 }
 
+h1 {
+    color: #1e333d;
+}
+
+.multiSelectionBtn {
+    padding: 10px 20px;
+    background-color: #289e8a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
 .item {
     display: flex;
     width: 35%;
@@ -16,6 +28,7 @@
     align-items: center;
     flex-direction: column;
     margin: 10px 0;
+    background-color: #614615;
 }
 
 .title {
@@ -23,13 +36,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #3a743a;
+    color: #fff;
     font-size: 20px;
+    cursor: pointer;
+    font-style: italic;
 }
-.title span{
+
+.title span {
     font-size: 25px;
 }
 
 .content {
     font-size: 18px;
+    color: #fff;
+    font-style: italic;
 }
